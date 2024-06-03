@@ -1,529 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sinchan U M</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
-
 <body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
 
-  <!--
-    - #MAIN
-  -->
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Skills</a>
+            <a href="#skills" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Diksha Jadhav</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a Full Stack Developer. <br/>
+                My first exposure to professional life through internship has benefited me mostly in
+                strengthening my personal skills. I have developed a positive attitude and a strong
+                sense of responsibility being innovative , resourceful, open and responsive to change. It has
+                created in me an interest in lifelong learning.
+            </p>
+            <div class="home-scl">
+                <a href="#" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#" style="--i:10"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
 
-  <main>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/About.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer!</h4>
+            <p>
+                I'm Diksha Jadhav & I'm from Khargone. I'm an engineering graduate from JIT College specialized in Computer Science. I've worked hard in my education & maintained a CGPA of 8.
+                Along with my degree I've completed Java, SQL and Full Stack Courses online.Now I'm ready to apply my knowledge into practice.Though I do not have any real life working experience, I've  had a lot of exposure to the software field.
+                My Goal is to build a successfull career as a Full Stack Developer.Moving forward in my career I hope to expand my experience across different industries.
+                I'm a good learner and team player
+                That's all about my self.
+                <!-- My first exposure to professional life through internship has benefited me mostly in
+                strengthening my personal skills. I have developed a positive attitude and a strong
+                sense of responsibility being innovative , resourceful, open and responsive to change. It has
+                created in me an interest in lifelong learning.
+                I'm attentive listener and effective oral communication skill -->
+            </p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
 
-    <!--
-      - #SIDEBAR
-    -->
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Skiils</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code-alt'></i>
+                        <h2>Full Stack Developer</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam perspiciatis fugit debitis laudantium, sed numquam neque at, praesentium exercitationem culpa ipsam? Nihil.
+                        </p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-java' style='color:#00eeff'></i>
+                        <h2>Java</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam perspiciatis fugit debitis laudantium, sed numquam neque at, praesentium exercitationem culpa ipsam? Nihil.
+                        </p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class='bx bxl-react' style='color:#00eeff'></i>
+                        <h2>React</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam perspiciatis fugit debitis laudantium, sed numquam neque at, praesentium exercitationem culpa ipsam? Nihil.
+                        </p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <aside class="sidebar" data-sidebar>
+    <h1 class="sub-title">My <span>Skills</span></h1>
 
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Sinchan U M</h1>
-
-          <p class="title">Data analyst</p>
+    <section>
+        <div class="container1" id="skills">
+            
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5'></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div><br/>
+                <div class="bar"><i style="color: #147bbc" class='bx bxl-css3'></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div><br/>
+                <div class="bar"><i style="color: #b0bc1e" class='bx bxl-javascript'></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javaScript">
+                        <span></span>
+                    </div>
+                </div><br/>
+                <div class="bar"><i style="color: #c32ec9" class='bx bxl-java'></i>
+                    <div class="info">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div><br/>
+                <div class="bar"><i style="color: #69bcbc" class='bx bxl-react'></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span> </span>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+             <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="text">Creativity</div>
+             </div>
 
-      </div>
+             <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">Communication</div>
+             </div>
 
-      <div class="sidebar-info_more">
+             <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Problem Solving</div>
+             </div>
 
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
+             <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">85%</div>
+                <div class="text">TeamWork</div>
+             </div>
             </div>
+        </div>
+    </section>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+    <section>
+        <div class="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest <span>Project</span></h2>
+                
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="./images/Project1.png">
+                        <div class="layer">
+                            <h5>Weather App</h5>
+                            <p>The Weather Detection project is designed to 
+                               provide real-time weather information based 
+                               on user inputs such as location or city name.
+                               It utilizes APIs (Application Programming Interfaces)
+                               provided by weather services to fetch and display 
+                               current weather conditions and forecasts.
+                            </p>
+                            <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
 
-              <a href="mailto:richard@example.com" class="contact-link">umsinchan@gmail.com</a>
+                    <div class="row">
+                        <img src="./images/Project2.png">
+                        <div class="layer">
+                            <h5>To-Do List</h5>
+                            <p>The To-Do List project is a web application designed
+                               to help users organize and manage their tasks effectively.
+                               This project utilizes HTML, CSS, and JavaScript to create
+                               an interactive user interface for adding, editing, and 
+                               deleting tasks.
+                            </p>
+                            <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="./images/Project3.png">
+                        <div class="layer">
+                            <h5>Quiz App</h5>
+                            <p>The Quiz App project is a web application designed to provide 
+                               users with an interactive quiz experience. This project utilizes 
+                               HTML, CSS, and JavaScript to create a dynamic user interface
+                               for presenting questions, handling user responses, and 
+                               calculating scores.
+                            </p>
+                            <a href="#"><i class='bx bx-link-external' style="color: aliceblue;"></i></a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Iste similique quibusdam facere!
+            </p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i>dikshajadhav@gmail.com</li>
+                <li><i class='bx bx-phone'></i>756653564</li>
             </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+917676481542</a>
+            <div class="contact-icons">
+                <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                <a href=""><i class='bx bxl-twitter'></i></a>
+                <a href=""><i class='bx bxl-instagram'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
             </div>
+        </div>
 
-          </li>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
 
-          <li class="contact-item">
+                <input type="" placeholder="Enter Your Subject">
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
 
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
 
-              <time datetime="1982-06-23">August 28, 2003</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>NMIT, Yalahanka, Karnataka</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          
-
-          <li class="social-item">
-            <a href="https://x.com/SinchanUMSinch1" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/sinchan_um_naik?igsh=MW1ndHBjd2hlc3ByMQ==" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/sinchan-u-m-6573b3260/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          
-
-          
-
-          
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-
-          <p>
-            I am Sinchan U M, an aspiring Software and Core Engineer pursuing a B.Tech in Electrical and Electronics Engineering at Nitte Meenakshi Institute of Technology, Bangalore. With skills in C, C++, Python, Matlab, and embedded programming, I have completed projects like house price prediction using machine learning, automated plant watering with Arduino, and stock price prediction using data science.
-
-            I have interned as a Data Science Intern at Bharath Intern and a Python Deep Dive Intern at Aqmenz Automation Private Limited. Additionally, I am an active member of the RE Club and Sustainability Club. I am passionate about solving coding problems and applying my knowledge to real-world challenges.
-            
-                      
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What I'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">ML development</h4>
-
-                <p class="service-item-text">
-                  A professional development of Machine learning models
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Python</h4>
-
-                <p class="service-item-text">
-                 It is widely used in various domains like ML and data science 
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">IOT development</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for Arduino and Raspbery pi.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Circuit designs</h4>
-
-                <p class="service-item-text">
-                 using matlab and simulink to design the circuit 
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">KPS school</h4>
-
-              <span>2016 — 2019</span>
-
-              <p class="timeline-text">
-                I did my SSLC in this school and I scored 90% in that time
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">BGS Institution</h4>
-
-              <span>2019 — 2021</span>
-
-              <p class="timeline-text">
-                I got my 1ST and 2nd PUC certficate from this institution
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Nitte Meenakshi institute of Technology</h4>
-
-              <span>2021 — 2025</span>
-
-              <p class="timeline-text">
-                I'm doing Engineering of Electrical and Electronics Department  and  
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Python deepdrive </h4>
-
-              <span>2021 — Present</span>
-
-              <p class="timeline-text">
-               
-              I did python deepdrive internship from Aquamenz Automation private limited
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Data science</h4>
-
-              <span>2021 — 2022</span>
-
-              <p class="timeline-text">
-                I was working with the data science internship of stock price prediction from Bharath intern
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">IOT developer</h4>
-
-              <span>2021 — 2022</span>
-
-              <p class="timeline-text">
-                I was working with the IOT domain like I had used arduino and raspberry pi to develop the website and cloud computing 
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Machine learning</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Matlab simulation</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">IOT</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-   
-
-
-
-
- <!--
-        - #CONTACT
-      -->
-
-     
-
+    </section>
+    <div class="last-text">
+        <p>Developed By Diksha....</p>
     </div>
-
-  </main>
-
+    <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
 
 
 
 
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    <script src="main.js"></script>
 </body>
-
 </html>

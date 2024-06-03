@@ -1,44 +1,40 @@
-# vCard - Personal portfolio
+# Day-10-Portfolio-Website-Modern
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+Embark on an exhilarating journey of web development with the "100 Days, 100 Websites" challenge! Over the course of 100 days, immerse yourself in the world of HTML, CSS, and JavaScript as you craft 100 unique websites from scratch. Each day presents an opportunity to explore new design concepts, master coding techniques, and unleash your creativity.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+Live Demo - https://quantumcoding123.github.io/Day-10-Portfolio-Website-Modern/
 
-## Demo
+# Join Us
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+GitHub-https://github.com/QuantumCoding123
 
-## Prerequisites
+YouTube-https://www.youtube.com/channel/UC3Dz2Yaz2uWAczNU4GEDg5Q
 
-Before you begin, ensure you have met the following requirements:
+Instagram - https://www.instagram.com/quantumcoding123
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+Telegram - https://t.me/QuantumCoding123
 
-## Installing vCard
+Whatsapp- https://whatsapp.com/channel/0029VaVInCA2ZjCjXEf2IC2I
 
-To install **vCard**, follow these steps:
+With a plethora of free resources available online, including tutorials, code snippets, and open-source projects, you'll have everything you need to bring your ideas to life. Whether you're building a personal blog, an e-commerce site, a portfolio showcase, or an interactive web application, the possibilities are endless.
 
-Linux and macOS:
+Join the "100 Days, 100 Websites" challenge today and witness your proficiency in web development soar to new heights. With dedication, perseverance, and a dash of creativity, you'll emerge from this journey as a proficient web developer ready to tackle any project that comes your way.
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+# Output - 1
 
-Windows:
+![Screenshot (43)](https://github.com/QuantumCoding123/Day-10-Portfolio-Website-Modern/assets/166281221/e5cbc900-7032-4503-8d0f-ba323a4eb916)
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
 
-## Contact
+# Output - 2
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+![Screenshot (44)](https://github.com/QuantumCoding123/Day-10-Portfolio-Website-Modern/assets/166281221/c2107373-abdb-4220-8eee-2f9bac0965d1)
 
-## License
 
-MIT
+# Output - 3
+
+![Screenshot (45)](https://github.com/QuantumCoding123/Day-10-Portfolio-Website-Modern/assets/166281221/57bbe198-ade7-41a3-89a5-7a5cf138ac80)
+
+
+
+
+
